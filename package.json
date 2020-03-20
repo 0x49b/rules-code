@@ -1,0 +1,43 @@
+{
+    "name": "rules",
+    "displayName": "rules",
+    "description": "Rules File (.rules) highlight support for VS Code",
+    "version": "0.0.1",
+    "publisher": "florianthievent",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "media/rules-logo.gif",
+    "bugs": {
+        "url": "https://github.com/lichtwellenreiter/rules-code/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lichtwellenreiter/rules-code.git"
+    },
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "rules",
+        "netcool",
+        "tivoli",
+        "objectserver",
+        "probes",
+        "ibm"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rules",
+            "aliases": ["rules", "rules"],
+            "extensions": [".rules"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rules",
+            "scopeName": "source.rules",
+            "path": "./syntaxes/rules.tmLanguage.json"
+        }]
+    }
+}
