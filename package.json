@@ -2,7 +2,7 @@
     "name": "rules",
     "displayName": "rules",
     "description": "Rules File (.rules) highlight support for VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "florianthievent",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "media/rules-logo.gif",
@@ -30,7 +30,7 @@
     "contributes": {
         "languages": [{
             "id": "rules",
-            "aliases": ["rules", "rules"],
+            "aliases": ["IBMRulesLanguage", "rules"],
             "extensions": [".rules"],
             "configuration": "./language-configuration.json"
         }],
