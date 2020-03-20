@@ -1,4 +1,4 @@
-# Impact Policy Language VSCode Support
+# Netcool/Tivoli Rules File VSCode Support
 
 ## Introduction
 Netcool/Tivoli Rules Language (.rules) is a proprietary language to write rules for IBM Tivoli Netcool/Objectserver Probes. 
