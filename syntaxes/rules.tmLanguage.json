@@ -109,7 +109,7 @@
                         "name": "punctuation.definition.comment.rules"
                     }
                 },
-                "match": "#",
+                "match": "#.*",
                 "name": "comment.block.empty.rules"
             }]
         },
